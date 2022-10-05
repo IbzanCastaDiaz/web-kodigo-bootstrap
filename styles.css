@@ -1,0 +1,379 @@
+body {
+    background-color: #e3f2fd;
+}
+/*---navbar---*/
+.navbar {
+    background-color: white;
+    border-bottom: 1px solid #412766;
+}
+.navbar-brand img {
+    height: 40px;
+    position: absolute;
+    left: 45%;
+    top: 10px;
+}
+
+/*---carousel---*/
+#carousel {
+    position:relative;
+}
+#carousel .text-carousel {
+    position: absolute;
+    top: 25%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    z-index: 1;
+}
+.text-carousel  h1 {
+    font-family: 'Rubik Dirt', cursive;
+}
+.text-carousel p {
+    font-family: 'Noto Sans Mono', monospace;
+}
+.btn-1  {
+    background-color:  #1c1232;
+    border: 1px solid #df9030;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 18px;
+}
+.btn-1:hover {
+    background-color: #df9030;
+    color: white;
+}
+
+/*---somos---*/
+#somos {
+    background-color: white;
+    margin-bottom: 275px;
+}
+#somos .somos-img {
+    width: 200px;
+    position:absolute;
+    right: 0; 
+}
+#somos .title-1 {
+    font-family: 'Secular One', sans-serif;
+    font-size: 48px;
+    color: #de8f30;
+    margin-top: 125px;
+    margin-bottom: 50px;
+}
+#somos .title-1 span {
+    color: #4ead8d;
+}
+#somos .paragraph-1 {
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 18px;
+    line-height: 200%;
+    color:#404040;
+    padding-bottom: 75px;
+}
+#somos .title-2 {
+    font-family: 'Secular One', sans-serif;
+    font-size: 30px;
+    color: #4ead8d;
+    margin-bottom: 30px;
+}
+
+/*--- Que es un Bootcamp ---*/
+.bootcamp {
+    background-image: url("images/background-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left; 
+    height: auto;
+    padding-top: 75px;
+    padding-bottom:50px;
+}
+.bootcamp h1 {
+    font-family: 'Secular One', sans-serif;
+    padding-top: 35px;
+    color:white;
+}
+.bootcamp h1 span {
+    color: #df9030;
+}
+.bootcamp p {
+    font-family: 'Noto Sans Mono', monospace;
+    line-height: 200%;
+    text-align: left;
+    color: white;
+}
+
+/*---Bootcamp Kodigo---*/
+.bootcamp-K {
+    background: linear-gradient(145deg, #1d0638, #6d24a8);
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.bootcamp-K h1 {
+    font-family: 'Secular One', sans-serif;
+    font-size: 75px;
+    text-align: center;
+    color: #b48dcf;
+    -webkit-text-stroke: 4px white;
+}
+.bootcamp-K .bK-color {
+    background-color: #00feff;
+    color: #00feff;
+}
+
+/*---Conoce nuestras ofertas---*/
+.offers .offers-title {
+    border-bottom: 1px solid black;
+    margin-top: 75px;
+}
+.offers .card {
+    border: none;
+    width: 24rem;
+    margin-bottom: 75px;
+}
+.offers .card h5 {
+    background-color: #00ad8c;
+    width: 150px;
+    padding: 5px;
+    color: white;
+}
+.offers .card p {
+    font-family: 'Noto Sans Mono', monospace;
+    line-height: 200%;
+    color: #595959;
+    margin-bottom: 0;
+}
+.offers .card-icons {
+    display: flex;
+}
+.card-icons img {
+    width: 40px;
+}
+.card-icons h4 {
+    color: #412766;
+    padding-top: 12px;
+    padding-left:15px;
+}
+.btn-2 {
+    text-decoration: none;
+    font-family: 'Secular One', sans-serif;
+    font-size: 16px;
+    background-color: #412766;
+    color: white;
+    padding: 10px;
+    border-radius: 2px;
+}
+.btn-2:hover {
+    background-color: #df9030;
+    color: white;
+}
+
+
+/*Aplica, estudia y consigue trabajo */ 
+.aplica {
+    background-color: rgb(247, 247, 247);
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.aplica .aplica-img{
+    width: 140px;
+    height: 150px;
+    background-color: #412766;
+    border-radius: 50%;
+    margin-bottom: 40px;
+
+}
+.aplica img {
+    padding-top: 30px;
+    width: 75px;
+}
+.aplica .aplica-img:hover{
+    background-color: #df9030;
+    transition-duration: 1s;
+}
+.aplica .container h2 {
+    color: #4EAD8D;
+    font-family: 'Secular One', sans-serif;
+
+
+}
+.aplica .container p {
+    color: #404040;
+    font-family: 'Noto Sans Mono', monospace;
+}
+.aplica .container p a {
+    text-decoration: none;
+    color: #df9030;
+
+}
+.aplica .container p a:hover {
+    color: #404040;
+}
+
+/* Decodificamos la Educacion */
+.education {
+    background-color: #191529;
+}
+.education .container {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+}
+.education .education-img {
+    width: 25%;
+    position:absolute;
+    right: 0; 
+}
+.education col {
+    width: 70%;
+}
+.education h1 {
+    color: white;
+    font-family: 'Secular One', sans-serif;
+    font-size: 70px;
+}
+.education p {
+    color: white;
+    font-family: 'Noto Sans Mono', monospace;  
+}
+.education svg {
+    color:white;
+}
+.btn-3  {
+    background-color:  #191529;
+    border: 1px solid #df9030;
+    padding: 15px;
+    color: white;
+    font-family: 'Secular One', sans-serif;
+    font-size: 26px;
+    display: flex;
+}
+.btn-3 svg {
+    padding-right: 15px;
+}
+.btn-3 h3 {
+    padding-top: 12px;
+}
+.btn-3:hover  {
+    background-color:  #df9030;
+    transition-duration: 1s;
+}
+
+/*Aceleramos tu aprendizaje*/
+.learning {
+    background-color:rgb(247, 247, 247);
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.title-h1 {
+    color: #4ead8d;
+    font-family: 'Secular One', sans-serif;
+}
+.title-h1 span {
+    color: #de8f2f;
+}
+.title-h4 {
+    color: #de8f2f;
+    font-family: 'Secular One', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*-- Estadisticas --*/
+.statistics {
+    background-color: #221937;
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+
+.statistics svg {
+    color: #4ead8d;
+}
+.statistics h1 {
+    color: white;
+    font-size: 35px;
+    font-family: 'Rubik Dirt', cursive;
+    padding-top: 10%;
+}
+.statistics h4 {
+    color: white;
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 14px;
+    padding-bottom: 5%;
+}
+
+/*-- Nuestros aliados --*/
+.allies {
+    background-color: white;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.allies img {
+    max-width: 100%;
+    max-height: 125px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn-4 {
+    background-color: #de8f2f;
+    text-decoration: none;
+    border:none;
+    padding: 25px;
+    margin-top: 75px;
+    color: white;
+    font-family: 'Rubik Dirt', cursive;
+    width: 400px;
+}
+.btn-4:hover {
+    background-color: #412766;
+    border: none;
+}
+
+/* --- Despega tu carrera ---*/
+.race {
+    background-color: rgb(255, 213, 213);
+}
+.race p {
+    font-family: 'Noto Sans Mono', monospace;
+    color: #404040;
+}
+.race p a {
+    text-decoration: none;
+    color: #de8f2f;
+}
+.race p a:hover {
+    color: #404040;
+}
+.race h1 {
+    font-family: 'Secular One', sans-serif;
+}
+.race .circle {
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding-bottom:10px;
+}
+
+
+/*
+
+    Titulo letra tipo comic
+    font-family: 'Rubik Dirt', cursive;
+    Titulos
+    font-family: 'Secular One', sans-serif;
+    Parrafos 
+    font-family: 'Noto Sans Mono', monospace;
+    color: #4ead8d;
+    color: #de8f2f;
+
+
+
+font-family: 'Rubik Dirt', cursive;
+#df9030
+#1c1232
+*/
+
+
